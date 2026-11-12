@@ -1,0 +1,28 @@
+{
+  "name": "pi-doorman",
+  "version": "0.1.0",
+  "description": "the pi-side companion to the doorman credential-scoping proxy",
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./src/doorman.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "license": "MIT",
+  "keywords": [
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmatzen/pi-doorman.git"
+  },
+  "author": "kmatzen",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ]
+}
